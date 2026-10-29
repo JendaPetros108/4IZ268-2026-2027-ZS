@@ -1,0 +1,24 @@
+body { 
+    font-family: sans-serif; 
+    padding: 20px; 
+}
+
+button { 
+    margin: 5px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+}
+
+#results { 
+    margin-top: 20px; 
+    padding: 15px; 
+    background: #f0f0f0; 
+    min-height: 50px; 
+    font-weight: bold; 
+}
+
+#tasks { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 5px; 
+}
