@@ -107,7 +107,7 @@ const calculateFahrenheit2 = (currentCelsius2) => {
 }
 
 const buttonTask2 = document.createElement('button');
-buttonTask2.innerText = "Úloha 2 (Teplota)";
+buttonTask2.innerText = "Úloha 2 - teplota";
 buttonTask2.setAttribute('id', 'task-2');
 
 buttonTask2.addEventListener('click', () => {
@@ -249,7 +249,7 @@ const calculateCircleArea = (radius) => {
 };
 
 const buttonTask7 = document.createElement('button');
-buttonTask7.innerText = "Úloha 7- bsah kružnice";
+buttonTask7.innerText = "Úloha 7- obsah kružnice";
 buttonTask7.setAttribute('id', 'task-7');
 
 buttonTask7.addEventListener('click', () => {
@@ -301,7 +301,7 @@ const isTriangle = (a, b, c) => {
 };
 
 const buttonTask9 = document.createElement('button');
-buttonTask9.innerText = "Úloha 9 (Trojúhelník)";
+buttonTask9.innerText = "Úloha 9 - trojúhelník";
 buttonTask9.setAttribute('id', 'task-9');
 buttonTask9.addEventListener('click', () => {
     //isTriangle(7, 3, 10);
@@ -344,7 +344,7 @@ if (!isTriangle(a, b, c)) {
 };
 
 const buttonTask10 = document.createElement('button');
-buttonTask10.innerText = "Úloha 10 (Obsah Heronem)";
+buttonTask10.innerText = "Úloha 10 - obsah Heron";
 buttonTask10.setAttribute('id', 'task-10');
 buttonTask10.addEventListener('click', () => {
     calculateHeronArea(5, 5, 5);
